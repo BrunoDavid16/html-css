@@ -11,7 +11,6 @@
 section > pre {
     white-space: pre-line;
     font-family: var(--fonte3);
-    font-size: 2.5vw;
 }
 
 * {
@@ -54,7 +53,11 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
     
+}
+section > p {
+    padding: 4em;
 }
 
 section.normal {
@@ -65,10 +68,24 @@ section.normal {
 section.imagem {
     background-color: rgb(50, 50, 50);
     color: white;
+    box-shadow: inset 6px 5px 13px 0px black;
+    background-attachment: fixed;
 }
-section.imagem > p {
+section.imagem > pre {
+    display: inline-block;
     width: 400px;
-    background-color: rgba(119, 119, 119, 0.253);
+    background-color: rgba(0, 0, 0, 0.513);
+    text-shadow: 2px 1px 0px black;
+}
+section#img001 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img002 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
