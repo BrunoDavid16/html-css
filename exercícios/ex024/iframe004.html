@@ -1,50 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uso de iframes</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        iframe#tela {
-            width: 95vw;
-            height: 400px;
-            border: 2px solid black
-            ;
-        }
-    </style>
+    <title>Iframe</title>
 </head>
-
 <body>
-    <h1>Faça ua escolha</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eius ex perferendis ullam natus expedita
-        dolor voluptates eum optio corporis veniam doloremque odio non sit aspernatur nobis quas praesentium. Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Quam esse ipsam aperiam soluta libero illo ipsum, laboriosam
-        numquam, sit, ab reiciendis. Eius tenetur vitae eligendi hic maxime, sint qui itaque!
+    <h1>Meu site principal</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet quo sapiente temporibus aperiam quod doloremque impedit totam repudiandae, vitae saepe et, facilis modi iste nostrum, placeat labore consequuntur corporis veniam!
     </p>
-    <ul>
-        <li><a href="pagina extra/pag001.html" target="frame">Primeira página</a></li>
-        <li><a href="pagina extra/pag002.html" target="frame">Seguda página</a></li>
-        <li><a href="pagina extra/pag003.html" target="frame">Terceira Página</a></li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium commodi culpa impedit odit unde
-        maiores error. Necessitatibus vitae minima mollitia quia error earum, explicabo ipsa quisquam suscipit
-        perferendis similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusamus quia asperiores
-        nobis dolor, doloremque quam sequi ab at similique magnam! Sint con sequuntur eos aut a facilis hic voluptatem
-        distinctio.</p>
+    <iframe src="pagina extra/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compativel a isso
 
-    <iframe id="tela" name="frame"srcdoc="<h1>Escolha uma das opçoes acima</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam iure ipsa similique ratione asperiores, ipsam eaque, fuga, delectus voluptas rerum corrupti odit provident maiores vitae perspiciatis sit amet omnis aliquid?</p>" frameborder="0">
-        <p>Infezlimente seu navegador nao é compatível com isso. </p>
     </iframe>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla recusandae molestiae illo quisquam labore
-        laboriosam aspernatur, ut deleniti id, neque nam libero odio quibusdam ex numquam esse facilis iste nobis? Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Amet alias, assumenda repudiandae mollitia eaque veritatis
-        earum odit magni saepe sequi culpa vitae dignissimos voluptates est reiciendis repellat accusamus aliquam
-        delectus!</p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iure animi veniam nam voluptatum sit omnis architecto nulla ea repellendus deleniti aut facere mollitia libero pariatur excepturi, officia, eligendi beatae.</p>
 </body>
-
 </html>
