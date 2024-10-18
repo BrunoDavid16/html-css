@@ -28,8 +28,7 @@ main h1 {
     color: black;
 }
 main::after {
-    content: "Essa impressãofoifeita através do site www.cursoemvideo.com";
-    text-decoration: ;
+    content: "Essa impressãofoifeita através do site www.cursoemvideo.com"
     }
 }
 
@@ -63,6 +62,7 @@ body {
     background-image: url(../back-tv.jpg);
 
  }
+}
  main {
     width: 700px;
 img#phone {display: none;}
